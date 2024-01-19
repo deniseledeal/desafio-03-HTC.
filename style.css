@@ -1,0 +1,185 @@
+*{
+    font-family: 'roboto',sans-serif;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+h1{
+    color: #ff6a28;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2{
+    font-size: 16px;
+    color: #61656D;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.container{
+    background-color: #fff;
+    width: 798px;
+    height: 574px;
+    top: 24px;
+    left: 321px;
+    border-radius:5px;
+    padding: 20px 26px 12px 27px;
+    box-sizing: border-box;
+    
+    
+}
+
+.card-box{
+    width:118px ;
+    height: 85px;
+    border-radius: 5PX; 
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center; 
+    margin-top: 12px; 
+    
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+
+}
+
+.card-title{
+    color: #61656D;
+    font-size: 14px;
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 4px;
+
+}
+
+.card-info{
+    font-size: 14px;
+    color: #ff6a28;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.info-geral{
+    display: flex;
+    justify-content: space-between;
+}
+.card-box-usuario{
+    width: 238px;
+    height: 85px;
+    border-radius: 5PX; 
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.image-used{
+    height: 60px;
+    width: 60px;
+}
+.info-cardgeral{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11px;
+}
+
+.card-name{
+    font-weight: 700;
+    font-size: 14px;
+    color: #ff6a28;
+}
+
+.card-infoTime{
+    color: #61656D;
+    font-size: 14px;
+}
+
+
+/* Ingredientes */
+
+.icon-apron{
+    margin-right: 8px;
+    width: 20px;
+    height: 23px;
+}
+
+/* ingredientes */
+.container2{
+    background-color: #fff;
+    width: 798px;
+    top: 24px;
+    border-radius:5px;
+    padding: 20px 26px 12px 27px;
+    box-sizing: border-box;
+    margin-top: 16px;    
+}
+
+.title-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secundary-title{
+    color: #ff6a28;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.list-ingredients{
+    list-style-position: inside;
+    margin-top: 12px;
+}
+.list-item{
+    margin-bottom: 10px;
+    color: #61656D;
+}
+
+/* preparo */
+.container3{
+    background-color: #fff;
+    width: 798px;
+    top: 24px;
+    border-radius:5px;
+    padding: 20px 26px 12px 27px;
+    box-sizing: border-box;
+    margin-top: 16px;
+}
+.preparation-item{
+    margin-bottom: 20px;
+    
+}
+/* adicionais */
+.container4{
+    background-color: #fff;
+    width: 798px;
+    top: 24px;
+    border-radius:5px;
+    padding: 20px 26px 12px 27px;
+    box-sizing: border-box;
+    margin-top: 16px;
+}
+.title-secundary{
+    background-color: #f0f0f0;
+    color:#61656D;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
